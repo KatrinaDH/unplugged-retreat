@@ -93,6 +93,7 @@ html {
 }
 
 body {
+  color: #e1e2ea;
   font-family: 'open sans', sans-serif;
   font-size: 1em;
   text-align: left;
@@ -108,20 +109,26 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 3.75em;
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.25em;
+  font-size: 3em;
+  font-weight: 500;
 }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
 }
 
 p {
-  font-size: 1.125em;
-  line-height: 1.5em;
+  font-size: .875em;
+  line-height: 1.285;
 }
 
 img {
@@ -145,6 +152,7 @@ address {
 
 header,
 footer {
+    background-color: #202322;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,6 +177,7 @@ header nav {
   display: flex;
   align-items: center;
   width: 60%;
+  font-weight: 700;
 }
 
 .header-divider {
@@ -199,12 +208,16 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
+footer {
+  text-align: center;
+}
+
 footer p {
   margin: 0;
 }
 
 footer .copyright {
-
+  text-align: center;
 }
 
 /** -------------- Mobile Style - Homepage -------------------- **/
@@ -222,12 +235,38 @@ footer .copyright {
 /***** Aside area *****/
 
 aside {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 /***** Features *****/
 
 .features {
@@ -250,6 +289,7 @@ aside {
 .features article {
   width: 57%;
   margin: 35px 0;
+  text-align: center;
 }
 
 .features p {
@@ -259,6 +299,7 @@ aside {
 /*** reviews ***/
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -276,6 +317,7 @@ aside {
 /***** About Section *****/
 
 .mission {
+  background-color: #527158;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -283,6 +325,7 @@ aside {
 }
 
 .contact-section {
+  background-color: #2a423a;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -293,19 +336,27 @@ aside {
   margin: 0;
 }
 
+.content-wrapper h2 {
+  margin: 0;
+}
 
 /***** FAQ Section *****/
 
 .questions {
+  background-color: #527158;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  margin: 50px 0 0 0;
+  margin: 0;
 }
 
 .questions h2 {
   margin-bottom: 45px;
+}
+
+.questions h3 {
+  font-size: 1em;
 }
 
 .questions .content-wrapper {
@@ -319,6 +370,8 @@ aside {
   margin-bottom: 50px;
   flex-basis: auto;
 }
+
+
 
 /* ==========================================================================
    Helper classes
