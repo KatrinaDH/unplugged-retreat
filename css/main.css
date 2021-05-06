@@ -109,20 +109,16 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  font-size: 3.75em;
-}
-
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 3em;
+  font-size: 1.875em;
   font-weight: 500;
 }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.875em;
+  font-size: 1.125em;
   font-weight: 500;
 }
 
@@ -178,6 +174,8 @@ header nav {
   align-items: center;
   width: 60%;
   font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.125em;
 }
 
 .header-divider {
@@ -191,6 +189,8 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 header figure {
@@ -248,7 +248,6 @@ footer .copyright {
   background-position: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
   min-height: 500px;
 }
@@ -269,6 +268,10 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+aside .content-wrapper {
+  margin-top: 10px;
 }
 
 aside .form {
@@ -339,7 +342,7 @@ input[type=button] {
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
 }
 
 .reviews h3 {
@@ -369,9 +372,6 @@ input[type=button] {
   margin: 0;
 }
 
-.content-wrapper h2 {
-  margin: 0;
-}
 
 /***** FAQ Section *****/
 
@@ -503,6 +503,15 @@ input[type=button] {
   margin: 100px 0;
 }
 
+h2 {
+  font-size: 2.25em;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 1.875em;
+}
+
 /** Header **/
 header {
   justify-content: space-around;
@@ -557,7 +566,7 @@ aside .content-wrapper .form {
 }
 
 /** Features **/
-.features articles {
+.features article {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -603,10 +612,11 @@ footer .content-wrapper {
   margin: 100px 0;
 }
 
-.footer-content {
+footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 footer .contact {
