@@ -212,6 +212,10 @@ footer .social-icons {
   align-items: center;
 }
 
+footer .social {
+  margin-top: 40px;
+}
+
 footer .social-icons p {
   display: flex;
   justify-content: center;
@@ -226,7 +230,7 @@ footer .social-icons p {
 
 footer .content-wrapper {
   width: 55%;
-  margin: 50px 0;
+  margin: 20px 0;
 }
 
 footer p {
@@ -239,6 +243,7 @@ footer .contact {
 
 footer .copyright {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 
@@ -326,7 +331,9 @@ input[type=button] {
 }
 
 .features h2 {
-  margin-bottom: 60px;
+  margin-bottom: 45px;
+  margin-top: 0;
+  padding: 0 10px;
 }
 
 .features article {
@@ -353,7 +360,7 @@ input[type=button] {
 }
 
 .reviews h2 {
-  margin: 0 0 40px 0;
+  margin: 0 30px 40px 0;
 }
 
 .reviews h3 {
