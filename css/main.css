@@ -216,6 +216,12 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #527158;
+  font-size: 1em;
+  margin: 0 20px;
 }
 
 footer .content-wrapper {
@@ -234,6 +240,7 @@ footer .contact {
 footer .copyright {
   text-align: center;
 }
+
 
 
 /** -------------- Mobile Style - Homepage -------------------- **/
