@@ -708,10 +708,14 @@ footer .social {
   margin: 0;
 }
 
+.mission .content-wrapper {
+  margin: 75px 0;
+}
+
 /***** FAQ Page *****/
 .questions .content-wrapper {
   justify-content: space-between;
-  margin: 50px 0;
+  margin: 75px 0;
 }
 
 .questions-content {
@@ -745,7 +749,7 @@ footer .content-wrapper {
 
 .hero-area h1 {
   width: 80%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 /** Aside **/
@@ -764,6 +768,10 @@ aside .content-wrapper .form {
   margin: 100px 0;
 }
 
+.features .content-wrapper {
+  margin-bottom: 0;
+}
+
 .features article {
   flex-basis: 33.3%;
 }
@@ -771,6 +779,18 @@ aside .content-wrapper .form {
 /** Reviews **/
 .reviews article div {
   width: 40%;
+}
+
+.reviews .content-wrapper {
+  margin: 100px 0;
+}
+
+.reviews h2 {
+  margin-bottom: 60px;
+}
+
+.reviews .content-wrapper div {
+  flex-basis: 450px;
 }
 
 /***** About Page ****/
@@ -781,6 +801,22 @@ aside .content-wrapper .form {
 
 .map figure {
   padding-bottom: 40%;
+}
+
+.mission h2 {
+  font-size: 3em;
+}
+
+.contact-section .content-wrapper {
+  margin: 100px 0;
+}
+
+.contact-section h2 {
+  font-size: 3em;
+}
+
+.contact-content {
+  margin-right: 150px;
 }
 
 /***** FAQ Page *****/
