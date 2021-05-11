@@ -378,6 +378,10 @@ input[type=button] {
   align-items: center;
 }
 
+.mission h2 {
+  margin-top: 0;
+}
+
 .map figure {
   width: 100%;
   height: 0;
@@ -402,6 +406,10 @@ input[type=button] {
   align-items: center;
 }
 
+.contact-section h2 {
+  margin-top: 0;
+}
+
 .contact-content p {
   margin: 0;
 }
@@ -419,11 +427,12 @@ input[type=button] {
 }
 
 .questions h2 {
-  margin-bottom: 45px;
+  margin: 0 0 10px 0;
 }
 
 .questions h3 {
-  font-size: 1em;
+  font-size: 1.25em;
+  margin: 10px 0 10px 0;
 }
 
 .questions .content-wrapper {
@@ -434,11 +443,14 @@ input[type=button] {
 }
 
 .questions-content {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   flex-basis: auto;
 }
 
-
+.questions p {
+  font-size: .96em;
+  font-weight: 400;
+}
 
 /* ==========================================================================
    Helper classes
@@ -534,7 +546,7 @@ input[type=button] {
 /** General Styles **/
 .content-wrapper {
   max-width: 640px;
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 h2 {
@@ -543,7 +555,8 @@ h2 {
 }
 
 h3 {
-  font-size: 1.875em;
+  font-size: 1.5em;
+  font-weight: 500;
 }
 
 /** Header **/
@@ -587,7 +600,7 @@ header figure {
 
 /** Aside **/
 aside .content-wrapper {
-  margin: 50px 0;
+  margin: 30px 0;
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
@@ -659,6 +672,9 @@ footer .copyright {
   width: 100%;
 }
 
+footer .social {
+  margin: 0;
+}
 /***** ABOUT page *****/
 
 
@@ -688,19 +704,32 @@ footer .copyright {
   width: 45%;
 }
 
+.mission h2 {
+  margin: 0;
+}
+
 /***** FAQ Page *****/
 .questions .content-wrapper {
   justify-content: space-between;
+  margin: 50px 0;
 }
 
 .questions-content {
-  flex-basis: 40%;
+  flex-basis: 45%;
 }
 
 .questions h2 {
   width: 100%;
+  margin: 0 0 10px 0;
 }
 
+footer .content-wrapper {
+  margin: 50px 0;
+}
+
+.questions h3 {
+  font-size: .97em;
+}
 }
 
 @media only screen and (min-width: 1200px) {
