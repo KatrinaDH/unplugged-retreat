@@ -715,6 +715,7 @@ footer .social {
 /***** FAQ Page *****/
 .questions .content-wrapper {
   justify-content: space-between;
+  align-items: flex-start;
   margin: 75px 0;
 }
 
@@ -818,6 +819,7 @@ aside .content-wrapper .form {
 .contact-content {
   margin-right: 150px;
 }
+
 
 /***** FAQ Page *****/
 .questions h2 {
